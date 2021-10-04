@@ -6,7 +6,13 @@
             "name": "python_django_rest_refresh",
             "selector": "source.python",
             "shell_cmd": "\"python\" -u \"$file\"",
-        }
+        },
+        {
+			"file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+			"name": "Anaconda Python Builder",
+			"selector": "source.python",
+			"shell_cmd": "\"python\" -u \"$file\""
+		},
     ],
     "folders":
     [
@@ -19,7 +25,7 @@
     "settings" :
         {
             "tabsize": 8,
-        }
+        },
 }
 
 
@@ -53,11 +59,3 @@
 //         }
 //     ],
 // }
-
-
-
-
-
-
-
-
