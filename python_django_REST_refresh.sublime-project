@@ -1,0 +1,63 @@
+{
+    "build_systems":
+    [
+        {
+            "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+            "name": "python_django_rest_refresh",
+            "selector": "source.python",
+            "shell_cmd": "\"python\" -u \"$file\"",
+        }
+    ],
+    "folders":
+    [
+        {
+            "path": "C:\\Users\\rbcmp\\apps\\python_django_rest_refresh",
+            "folder_exclude_patterns": [],
+            "follow_symlinks": true,
+        }
+    ],
+    "settings" :
+        {
+            "tabsize": 8,
+        }
+}
+
+
+
+
+
+
+
+// {
+//     "folders":
+//     [
+//         {
+//             "path": "C:\\Users\\rbcmp\\apps\\python_django_rest_refresh",
+//             "folder_exclude_patterns": [],
+//             "follow_symlinks": true,
+//         },
+
+//     ],
+//     "settings":
+//     {
+//         "tab_size": 8,
+//     },
+//     "build_systems":
+//     [
+//         {
+//             "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+//             "file_patterns": ["*.py"],
+//             "name": "Python_DjangoREST_Python_Builder",
+//             "selector": "source.python",
+//             "shell_cmd": "\"python\" -u \"$file\"",
+//         }
+//     ],
+// }
+
+
+
+
+
+
+
+
